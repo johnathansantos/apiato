@@ -23,7 +23,7 @@ return [
 
         /*
          |--------------------------------------------------------------------------
-         | Log File
+         |false Log File
          |--------------------------------------------------------------------------
          |
          | What to name the log file in the `storage/log` path.
@@ -78,9 +78,9 @@ return [
 
         'output' => [
 
-            'log' => 'true',
+            'log' => true,
 
-            'console' => 'true',
+            'console' => true,
         ]
 
     ]
